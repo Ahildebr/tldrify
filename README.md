@@ -17,3 +17,6 @@ adrian:
 curl -X POST http://localhost:5555/summarize \
 -H "Content-Type: application/json" \
 -d '{"text": "Flask is a Python web framework used to build web applications easily.", "type": "simple"}'
+
+
+pip install -r requirements.txt
